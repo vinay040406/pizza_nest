@@ -72,6 +72,16 @@ export const SPECIES_DATA = [
     text: "Cheese Overload",
     veg: "non-veg",
   },
+  {
+    image: "/assets/webp/farmhouse-magic.webp",
+    text: "Farmhouse Magic",
+    veg: "veg",
+  },
+  {
+    image: "/assets/webp/margherita.webp",
+    text: "Margherita",
+    veg: "non-veg",
+  },
 ];
 
 export const RESTAURANT_DATA = [

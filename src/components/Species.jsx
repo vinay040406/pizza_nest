@@ -57,7 +57,10 @@ const Species = () => {
           <Tiltle text={"What pizza would you like to eat?"} />
           <div className="hidden md:flex gap-2 ">
             <span
-              onClick={() => swiperRef.current?.slidePrev()}
+              onClick={() => {
+                console.log("swiper ref:", swiperRef.current);
+                swiperRef.current?.slidePrev();
+              }}
               className="h-8 w-8 rounded-full flex justify-center items-center bg-white-gray cursor-pointer hover:bg-prime-1 duration-300 ease-in group"
             >
               <Icons
