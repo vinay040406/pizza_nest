@@ -1,6 +1,7 @@
-import { Nunito_Sans, Nunito, Inter, Poppins, Roboto } from "next/font/google";
-import "./globals.css";
-import { CartProvider } from "@/components/CartProvider";
+import { Inter, Nunito, Nunito_Sans, Poppins, Roboto } from "next/font/google";
+
+import Navbar from "@/components/common/Navbar";
+import Footer from "@/components/common/Footer";
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -8,7 +9,7 @@ const poppins = Poppins({
   weight: ["400", "500", "600", "700", "800"],
 });
 const roboto = Roboto({
-  variable: "--font-roboto  ",
+  variable: "--font-poppins",
   subsets: ["latin"],
   weight: ["400", "500", "600", "700", "800"],
 });
@@ -20,12 +21,12 @@ const nunito = Nunito({
 });
 
 const nunitoSans = Nunito_Sans({
-  variable: "--font-nunito-sans",
+  variable: "--font-nunito",
   subsets: ["latin"],
   weight: ["400", "500", "600", "700", "800"],
 });
 const inter = Inter({
-  variable: "--font-inter",
+  variable: "--font-nunito",
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700", "800"],
 });
@@ -47,7 +48,9 @@ export default function RootLayout({ children }) {
       className={`${nunitoSans.variable} ${inter.variable} ${nunito.variable} ${poppins.variable} ${roboto.variable}  h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
-        <CartProvider>{children}</CartProvider>
+        <Navbar />
+        {children}
+        <Footer />
       </body>
     </html>
   );
