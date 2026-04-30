@@ -55,6 +55,7 @@ const Footer = () => {
               {FOOTER_LINKS.quickLinks.map((item, index) => (
                 <div key={index} className="flex flex-col gap-2">
                   <Link
+                    aria-label={item.text}
                     href={item.href}
                     className="text-gray-footer leading-160 li text-sm md:text-base"
                   >
