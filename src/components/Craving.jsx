@@ -13,7 +13,7 @@ const Craving = () => {
         duration: 0.8,
         ease: "easeOut",
       }}
-      className="w-full bg-border-gray py-12 md:py-20 bg-[url('/assets/webp/craving-bg-image.webp')] bg-center bg-cover"
+      className="w-full py-12 md:py-20 bg-[url('/assets/webp/craving-bg-image.webp')] bg-center bg-cover"
     >
       <div className="flex max-w-180.5 w-full mx-auto px-4 lg:px-0 flex-col text-center items-center gap-6 md:gap-8">
         <div className="flex flex-col gap-4 text-center items-center w-full">
