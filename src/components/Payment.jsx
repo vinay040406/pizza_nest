@@ -2,6 +2,7 @@
 import Swal from "sweetalert2";
 import { Button } from "./common/Button";
 import Icons from "./common/Icons";
+import { useCart } from "./CartProvider";
 
 const PAYMENT_METHODS = [
   { id: "upi", label: "UPI (Google Pay, PhonePe, Paytm)" },
@@ -10,6 +11,7 @@ const PAYMENT_METHODS = [
 ];
 
 const Payment = ({
+  setProducts,
   setSelectedPayment,
   selectedPayment,
   grandTotal,
@@ -26,6 +28,8 @@ const Payment = ({
       timer: 2000,
     });
   };
+
+  const { setCartItem } = useCart();
 
   const showOrderToast = () => {
     Swal.fire({
@@ -57,6 +61,10 @@ const Payment = ({
         toast.addEventListener("mouseleave", Swal.resumeTimer);
       },
     });
+    localStorage.removeItem("products");
+    localStorage.removeItem("quantities");
+    setCartItem(0);
+    setProducts([]);
   };
 
   return (

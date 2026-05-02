@@ -52,13 +52,13 @@ const CartSlider = () => {
       >
         {CART_SLIDER_DATA.map((meal, index) => (
           <SwiperSlide key={index}>
-            <div className="rounded-xl overflow-hidden shadow-cart font-nunito-sans">
-              <div className="relative h-48 md:h-63">
+            <div className="rounded-xl overflow-hidden shadow-cart font-nunito-sans cursor-pointer">
+              <div className="relative h-48 md:h-63 group">
                 <Image
                   src={meal.image}
                   alt={meal.name}
                   fill
-                  className="object-cover"
+                  className="object-cover group-hover:scale-97 duration-300 ease-in group-hover:rounded-xl"
                 />
                 <div className="absolute bottom-2.75 left-0 right-0 flex justify-between items-center px-3">
                   <span className="text-white font-medium text-base md:text-18px leading-120">
@@ -69,7 +69,7 @@ const CartSlider = () => {
                   </span>
                 </div>
               </div>
-              <button className="w-full py-2 text-center font-medium leading-120 bg-white cursor-pointer flex gap-1.5 justify-center text-xl md:text-2xl">
+              <button className="w-full py-2 text-center font-medium leading-120 bg-white flex gap-1.5 justify-center text-xl md:text-2xl">
                 + <span>Add</span>
               </button>
             </div>

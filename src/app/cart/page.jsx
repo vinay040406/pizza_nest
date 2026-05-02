@@ -98,8 +98,6 @@ const page = () => {
 
   const grandTotal = subTotal + taxes;
 
-
-
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -125,13 +123,13 @@ const page = () => {
 
           {/* Restaurant card */}
           <div className="shadow-dominos rounded-xl py-5 pl-5 pr-3 flex flex-col sm:flex-row gap-4 sm:gap-5 items-start sm:items-center justify-between">
-            <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 items-start sm:items-center">
-              <div className="h-28 w-36 sm:h-44 sm:w-53.25 relative rounded-lg overflow-hidden flex-shrink-0">
+            <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 items-start sm:items-center group">
+              <div className="h-28 w-36 sm:h-44 sm:w-53.25 relative rounded-lg overflow-hidden group-hover:scale-90 duration-300 ease-in ">
                 <Image
-                  src="/assets/webp/dominos-logo.webp"
+                  src="/assets/images/dominos-logo.webp"
                   alt="Domino's"
                   fill
-                  className="object-cover w-full h-full"
+                  className="object-cover w-full h-full "
                 />
               </div>
               <div className="flex flex-col gap-2">
@@ -172,10 +170,10 @@ const page = () => {
               {products.map((saved) => (
                 <div
                   key={saved.id}
-                  className="rounded-lg p-3 flex flex-col sm:flex-row items-start shadow-cheese justify-between gap-4"
+                  className="rounded-lg p-3 flex flex-col sm:flex-row items-start shadow-cheese justify-between gap-4 group"
                 >
                   <div className="flex gap-3.5 w-full">
-                    <div className="h-24 w-28 sm:h-33.25 sm:w-34.75 relative rounded-lg overflow-hidden flex-shrink-0">
+                    <div className="h-24 w-28 sm:h-33.25 sm:w-34.75 relative rounded-lg overflow-hidden group-hover:scale-90 duration-300 ease-in">
                       <Image
                         src={saved.image}
                         alt={saved.name}
@@ -242,6 +240,8 @@ const page = () => {
             </div>
 
             <Payment
+              products={products}
+              setProducts={setProducts}
               subTotal={subTotal}
               taxes={taxes}
               grandTotal={grandTotal}

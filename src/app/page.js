@@ -5,6 +5,7 @@ import Navbar from "@/components/common/Navbar";
 import Craving from "@/components/Craving";
 import FamousDishes from "@/components/FamousDishes";
 import Hero from "@/components/Hero";
+import Loading from "@/components/Loading";
 import Offer from "@/components/Offer";
 import Restaurants from "@/components/Restaurants";
 import Species from "@/components/Species";
@@ -25,11 +26,11 @@ export default function Home() {
       <main>
         <div className="px-4 xl:px-0">
           <Hero />
-          <Suspense fallback={null}>
+          <Suspense fallback={<Loading />}>
             <Species />
           </Suspense>
           <Restaurants />
-          <Suspense fallback={null}>
+          <Suspense fallback={<Loading />}>
             <FamousDishes />
           </Suspense>
           <Offer />

@@ -14,11 +14,11 @@ const Hero = () => {
         duration: 0.8,
         ease: "easeOut",
       }}
-      className="mt-25 lg:mt-35 max-w-330 w-full mx-auto bg-[url('/assets/webp/hero-bg-image.webp')] bg-cover bg-bottom bg-no-repeat rounded-xl md:rounded-4xl pl-4 lg:pl-22.5 py-5 overflow-hidden md:py-0 flex items-center flex-col md:flex-row md:min-h-119 justify-between"
+      className="mt-25 lg:mt-35 max-w-330 w-full mx-auto bg-[url('/assets/images/hero-bg-image.webp')] bg-cover bg-bottom bg-no-repeat rounded-xl md:rounded-4xl pl-4 lg:pl-22.5 py-5 overflow-hidden md:py-0 flex items-center flex-col md:flex-row md:min-h-119 justify-between"
     >
       <div className="max-w-149.25 w-full flex flex-col gap-3 relative font-nunito-sans text-white">
         <Image
-          src={"/assets/webp/free-delivery.webp"}
+          src={"/assets/images/free-delivery.webp"}
           height={172}
           width={153}
           alt="free-delivery"
@@ -53,7 +53,7 @@ const Hero = () => {
           className="md:translate-y-15 border-white h-60 w-80 sm:w-120 object-center md:h-94.25 md:w-149.25"
         />
         <Image
-          src={"/assets/webp/50-discount.webp"}
+          src={"/assets/images/50-discount.webp"}
           height={173}
           width={168}
           alt="50%"

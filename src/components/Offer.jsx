@@ -21,7 +21,7 @@ const Offer = () => {
         {OFFER_DATA.map((item, index) => (
           <div
             key={index}
-            className="bg-[url('/assets/webp/offer-bg-image.png')] bg-cover bg-center rounded-xl flex pl-8 relative min-h-56 md:min-h-79.75 items-center overflow-hidden hover:scale-103 duration-300 ease-in-out"
+            className="bg-[url('/assets/images/offer-bg-image.webp')] bg-cover bg-center rounded-xl flex pl-8 relative min-h-56 md:min-h-79.75 items-center overflow-hidden hover:scale-103 duration-300 ease-in-out"
           >
             {/* Pizza image */}
             <Image
@@ -40,7 +40,7 @@ const Offer = () => {
             <div className="absolute right-2 md:right-12.5 top-2">
               <div className="relative">
                 <Image
-                  src={"/assets/webp/offer-cloud-bg-image.webp"}
+                  src={"/assets/images/offer-cloud-bg-image.webp"}
                   height={109}
                   width={142}
                   alt="price"

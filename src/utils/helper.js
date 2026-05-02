@@ -33,52 +33,52 @@ export const FILTERED_HEADING = [
 
 export const SPECIES_DATA = [
   {
-    image: "/assets/webp/margherita.webp",
+    image: "/assets/images/margherita.webp",
     text: "Margherita",
     veg: "veg",
   },
   {
-    image: "/assets/webp/masala-paneer.webp",
+    image: "/assets/images/masala-paneer.webp",
     text: "Masala Paneer",
     veg: "veg",
   },
   {
-    image: "/assets/webp/farmhouse-magic.webp",
+    image: "/assets/images/farmhouse-magic.webp",
     text: "Farmhouse Magic",
     veg: "non-veg",
   },
   {
-    image: "/assets/webp/cheese-overload.webp",
+    image: "/assets/images/cheese-overload.webp",
     text: "Cheese Overload",
     veg: "veg",
   },
   {
-    image: "/assets/webp/margherita.webp",
+    image: "/assets/images/margherita.webp",
     text: "Margherita",
     veg: "non-veg",
   },
   {
-    image: "/assets/webp/masala-paneer.webp",
+    image: "/assets/images/masala-paneer.webp",
     text: "Masala Paneer",
     veg: "veg",
   },
   {
-    image: "/assets/webp/farmhouse-magic.webp",
+    image: "/assets/images/farmhouse-magic.webp",
     text: "Farmhouse Magic",
     veg: "non-veg",
   },
   {
-    image: "/assets/webp/cheese-overload.webp",
+    image: "/assets/images/cheese-overload.webp",
     text: "Cheese Overload",
     veg: "non-veg",
   },
   {
-    image: "/assets/webp/farmhouse-magic.webp",
+    image: "/assets/images/farmhouse-magic.webp",
     text: "Farmhouse Magic",
     veg: "veg",
   },
   {
-    image: "/assets/webp/margherita.webp",
+    image: "/assets/images/margherita.webp",
     text: "Margherita",
     veg: "non-veg",
   },
@@ -86,42 +86,42 @@ export const SPECIES_DATA = [
 
 export const RESTAURANT_DATA = [
   {
-    image: "/assets/webp/restaurant1.webp",
+    image: "/assets/images/restaurant1.webp",
     name: "Punjabi Tadka",
     dish: "North Indian, Punjabi",
   },
   {
-    image: "/assets/webp/restaurant2.webp",
+    image: "/assets/images/restaurant2.webp",
     name: "Pizza Paradise",
     dish: "Pizza, Fast Food",
   },
   {
-    image: "/assets/webp/restaurant3.webp",
+    image: "/assets/images/restaurant3.webp",
     name: "Desi Dhaba",
     dish: "North Indian, Street Food",
   },
   {
-    image: "/assets/webp/restaurant4.webp",
+    image: "/assets/images/restaurant4.webp",
     name: "Sharma Sweets ",
     dish: "Sweets, North Indian",
   },
   {
-    image: "/assets/webp/restaurant1.webp",
+    image: "/assets/images/restaurant1.webp",
     name: "Punjabi Tadka",
     dish: "North Indian, Punjabi",
   },
   {
-    image: "/assets/webp/restaurant2.webp",
+    image: "/assets/images/restaurant2.webp",
     name: "Pizza Paradise",
     dish: "Pizza, Fast Food",
   },
   {
-    image: "/assets/webp/restaurant3.webp",
+    image: "/assets/images/restaurant3.webp",
     name: "Desi Dhaba",
     dish: "North Indian, Street Food",
   },
   {
-    image: "/assets/webp/restaurant4.webp",
+    image: "/assets/images/restaurant4.webp",
     name: "Sharma Sweets ",
     dish: "Sweets, North Indian",
   },
@@ -130,7 +130,7 @@ export const RESTAURANT_DATA = [
 export const FAMOUS_DISHES_DATA = [
   {
     id: 1,
-    image: "/assets/webp/famousDish1.webp",
+    image: "/assets/images/famousDish1.webp",
     name: "Classic Margherita",
     location: "Pizza Paradise",
     price: "249",
@@ -141,7 +141,7 @@ export const FAMOUS_DISHES_DATA = [
   },
   {
     id: 2,
-    image: "/assets/webp/famousDish2.webp",
+    image: "/assets/images/famousDish2.webp",
     name: "Cheese Overload",
     location: "Desi Dhaba",
     price: "186",
@@ -152,7 +152,7 @@ export const FAMOUS_DISHES_DATA = [
   },
   {
     id: 3,
-    image: "/assets/webp/famousDish3.webp",
+    image: "/assets/images/famousDish3.webp",
     name: "Veggie Fiesta",
     location: "La Pino'z Pizza",
     price: "269",
@@ -163,7 +163,7 @@ export const FAMOUS_DISHES_DATA = [
   },
   {
     id: 4,
-    image: "/assets/webp/famousDish4.webp",
+    image: "/assets/images/famousDish4.webp",
     name: "Masala Paneer",
     location: "Pizza Wings",
     price: "299",
@@ -174,7 +174,7 @@ export const FAMOUS_DISHES_DATA = [
   },
   {
     id: 5,
-    image: "/assets/webp/famousDish5.webp",
+    image: "/assets/images/famousDish5.webp",
     name: "Farmhouse Magic",
     location: "Oven Story",
     price: "279",
@@ -185,7 +185,7 @@ export const FAMOUS_DISHES_DATA = [
   },
   {
     id: 6,
-    image: "/assets/webp/famousDish6.webp",
+    image: "/assets/images/famousDish6.webp",
     name: "Peppy Paneer",
     location: "Pizza Wings",
     price: "289",
@@ -196,7 +196,7 @@ export const FAMOUS_DISHES_DATA = [
   },
   {
     id: 7,
-    image: "/assets/webp/famousDish7.webp",
+    image: "/assets/images/famousDish7.webp",
     name: "Peri Peri Paneer",
     location: "Oven Story",
     price: "299",
@@ -207,7 +207,7 @@ export const FAMOUS_DISHES_DATA = [
   },
   {
     id: 8,
-    image: "/assets/webp/famousDish8.webp",
+    image: "/assets/images/famousDish8.webp",
     name: "Cheese n Corn",
     location: "Domino’s Pizza",
     price: "259",
@@ -218,7 +218,7 @@ export const FAMOUS_DISHES_DATA = [
   },
   {
     id: 9,
-    image: "/assets/webp/famousDish3.webp",
+    image: "/assets/images/famousDish3.webp",
     name: "Farmhouse Magic",
     location: "Oven Story",
     price: "279",
@@ -229,7 +229,7 @@ export const FAMOUS_DISHES_DATA = [
   },
   {
     id: 10,
-    image: "/assets/webp/famousDish1.webp",
+    image: "/assets/images/famousDish1.webp",
     name: "Peppy Paneer",
     location: "Pizza Wings",
     price: "289",
@@ -240,7 +240,7 @@ export const FAMOUS_DISHES_DATA = [
   },
   {
     id: 11,
-    image: "/assets/webp/famousDish6.webp",
+    image: "/assets/images/famousDish6.webp",
     name: "Peri Peri Paneer",
     location: "Oven Story",
     price: "299",
@@ -251,7 +251,7 @@ export const FAMOUS_DISHES_DATA = [
   },
   {
     id: 12,
-    image: "/assets/webp/famousDish2.webp",
+    image: "/assets/images/famousDish2.webp",
     name: "Cheese n Corn",
     location: "Domino’s Pizza",
     price: "259",
@@ -262,7 +262,7 @@ export const FAMOUS_DISHES_DATA = [
   },
   {
     id: 13,
-    image: "/assets/webp/famousDish8.webp",
+    image: "/assets/images/famousDish8.webp",
     name: "Farmhouse Magic",
     location: "Oven Story",
     price: "279",
@@ -273,7 +273,7 @@ export const FAMOUS_DISHES_DATA = [
   },
   {
     id: 14,
-    image: "/assets/webp/famousDish4.webp",
+    image: "/assets/images/famousDish4.webp",
     name: "Peppy Paneer",
     location: "Pizza Wings",
     price: "289",
@@ -284,7 +284,7 @@ export const FAMOUS_DISHES_DATA = [
   },
   {
     id: 15,
-    image: "/assets/webp/famousDish5.webp",
+    image: "/assets/images/famousDish5.webp",
     name: "Peri Peri Paneer",
     location: "Oven Story",
     price: "299",
@@ -295,7 +295,7 @@ export const FAMOUS_DISHES_DATA = [
   },
   {
     id: 16,
-    image: "/assets/webp/famousDish7.webp",
+    image: "/assets/images/famousDish7.webp",
     name: "Cheese n Corn",
     location: "Domino’s Pizza",
     price: "259",
@@ -308,12 +308,12 @@ export const FAMOUS_DISHES_DATA = [
 export const OFFER_DATA = [
   {
     name: "Spicy Paneer",
-    image: "/assets/webp/offer-pizza1.webp",
+    image: "/assets/images/offer-pizza1.webp",
     price: "199",
   },
   {
     name: "CHEESE BURST",
-    image: "/assets/webp/offer-pizza2.webp",
+    image: "/assets/images/offer-pizza2.webp",
     price: "299",
   },
 ];
@@ -349,32 +349,32 @@ export const FOOTER_LINKS = {
 
 export const CART_SLIDER_DATA = [
   {
-    image: "/assets/webp/coca-cola.webp",
+    image: "/assets/images/coca-cola.webp",
     name: "Coca-Cola",
     price: "40",
   },
   {
-    image: "/assets/webp/crispy-fries.webp",
+    image: "/assets/images/crispy-fries.webp",
     name: "Crispy Fries",
     price: "89",
   },
   {
-    image: "/assets/webp/brownie.webp",
+    image: "/assets/images/brownie.webp",
     name: "Fudge Brownie",
     price: "109",
   },
   {
-    image: "/assets/webp/coca-cola.webp",
+    image: "/assets/images/coca-cola.webp",
     name: "Coca-Cola",
     price: "40",
   },
   {
-    image: "/assets/webp/crispy-fries.webp",
+    image: "/assets/images/crispy-fries.webp",
     name: "Crispy Fries",
     price: "89",
   },
   {
-    image: "/assets/webp/brownie.webp",
+    image: "/assets/images/brownie.webp",
     name: "Fudge Brownie",
     price: "109",
   },
